@@ -60,10 +60,6 @@ class MainWindow : public QMainWindow
 
     quint16 tcpServerListenPort;
 
-    quint16 udpListenPort;
-    QHostAddress udpTargetAddr;
-    quint16 udpTargetPort;
-
     QString settingsFileDir;
     QList<QNetworkInterface> interfaceList;
     quint8 type;
